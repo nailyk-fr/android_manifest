@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0" remote="github" />
+	
+
+	<remove-project name="CyanogenMod/android_hardware_qcom_camera" />
+	<remove-project name="CyanogenMod/android_hardware_sony_camera" />
+	<project name="cm-b2g/camera" path="hardware/qcom/camera" revision="cm-13.0" />
+
+
+</manifest>
