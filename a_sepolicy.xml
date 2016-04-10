@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remove-project name="CyanogenMod/android_external_sepolicy" />
+<!--	<remove-project name="platform/external/selinux" />-->
+	<project path="external/sepolicy" name="xen0n/android_external_sepolicy" groups="pdk" revision="cm-13.0-policyvers-29" />
+<!--	<project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" revision="cm-12.1" />-->
+
+
+</manifest>
