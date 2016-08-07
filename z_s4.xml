@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="CyanogenMod/android_device_samsung_ks01lte" />
+  <project name="nailyk-fr/android_device_samsung_ks01lte" path="device/samsung/ks01lte" remote="github" />
+</manifest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <projet name="f-droid/fdroid-client" path="packages/apps/F-droid" revision="master" />
+</manifest>

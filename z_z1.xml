@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="CyanogenMod/android_device_sony_rhine-common" />
+  <project name="nailyk-fr/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" />
+  <remove-project name="CyanogenMod/android_device_sony_amami" />
+  <project name="nailyk-fr/android_device_sony_amami" path="device/sony/amami" remote="github" />
+  <remove-project name="CyanogenMod/android_device_sony_honami" />
+  <project name="nailyk-fr/android_device_sony_honami" path="device/sony/honami" remote="github" />
+
+
+</manifest>
