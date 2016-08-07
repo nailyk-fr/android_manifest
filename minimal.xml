@@ -35,7 +35,6 @@
   <remove-project  name="CyanogenMod/android_external_gello_build" />
   <remove-project  name="CyanogenMod/android_external_google" />
   <remove-project  name="CyanogenMod/android_external_gmock"/>
-  <remove-project  name="CyanogenMod/android_external_gptfdisk"  />
   <remove-project  name="CyanogenMod/android_external_gson" />
   <remove-project  name="CyanogenMod/android_external_guava"  />
   <remove-project  name="CyanogenMod/android_external_htop" />
