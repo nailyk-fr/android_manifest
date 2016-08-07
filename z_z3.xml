@@ -2,28 +2,21 @@
 <manifest>
 	<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 
-	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0" remote="github" />
+<!--	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0" remote="github" />-->
 	
-<!--	<remove-project name="CyanogenMod/android_hardware_qcom_camera" />
-	<remove-project name="CyanogenMod/android_hardware_sony_camera" />
-	<project name="cm-b2g/camera" path="hardware/qcom/camera" revision="cm-13.0" />-->
-
-
 	<remove-project name="CyanogenMod/android_device_sony_z3" />
-	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-13.0_crypto" />
+	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-13.0_twrp" />
 
-	<project name="nailyk-fr/android_device_sony_z3c" path="device/sony/z3c" revision="cm-13.0_crypto" />
+
+<!--	<project name="nailyk-fr/android_device_sony_z3c" path="device/sony/z3c" revision="cm-13.0_crypto" />-->
 
 
 	<remove-project name="CyanogenMod/android_device_sony_shinano-common" />
-	<project name="nailyk-fr/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-13.0_crypto" />
+    <remove-project name="CyanogenMod/android_device_sony_msm8974-common" />
+<!--	<project name="nailyk-fr/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-13.0_crypto" />-->
 	
-<!--	<remove-project name="CyanogenMod/android_device_sony_msm8974-common" />
-	<project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_crypto" />
--->
 
-
-	<project name="CyanogenMod/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
-	<project path="kernel/sony/msm_sony" name="kernel" groups="device" remote="sony" revision="aosp/LA.BF64.1.2.2_rb4.7" />
+<!--	<project name="CyanogenMod/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />-->
+<!--	<project path="kernel/sony/msm_sony" name="kernel" groups="device" remote="sony" revision="aosp/LA.BF64.1.2.2_rb4.7" />-->
 
 </manifest>
