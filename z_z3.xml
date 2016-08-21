@@ -18,12 +18,15 @@
 	<remove-project name="CyanogenMod/android_device_sony_shinano-common" />
 	<project name="nailyk-fr/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-13.0_work-3.4" />
 
-	<remove-project name="CyanogenMod/android_device_sony_msm8974" />
-	 <project name="nailyk-fr/android_device_sony_msm8974" path="device/sony/msm8974-common" revision="cm-13.0_work-3.4" />
+	<remove-project name="CyanogenMod/android_device_sony_msm8974-common" />
+	 <project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_work-3.4" />
 	
 <!--	<remove-project name="CyanogenMod/android_device_sony_msm8974-common" />
 	<project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_crypto" />
 -->
+
+	<remove-project name="platform/hardware/qcom/msm8x74"  />
+	<project name="nailyk-fr/android_hardware_qcom_msm8x74" path="hardware/qcom/msm8x74" revision="cm-13.0_work-3.4" />
 
 
 	<project name="CyanogenMod/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
