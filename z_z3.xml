@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 
-	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0" remote="github" />
+	<project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0_work-3.4" remote="github" />
 	
 <!--	<remove-project name="CyanogenMod/android_hardware_qcom_camera" />
 	<remove-project name="CyanogenMod/android_hardware_sony_camera" />
