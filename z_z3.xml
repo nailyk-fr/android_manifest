@@ -5,7 +5,7 @@
 <!--	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0" remote="github" />-->
 	
 	<remove-project name="CyanogenMod/android_device_sony_z3" />
-	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-13.0_twrp" />
+	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-13.0_twrp2" />
 
 
 <!--	<project name="nailyk-fr/android_device_sony_z3c" path="device/sony/z3c" revision="cm-13.0_crypto" />-->
