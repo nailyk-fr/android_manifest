@@ -26,7 +26,8 @@
 -->
 
 	<remove-project name="CyanogenMod/android_kernel_sony_msm8974" />
-	<project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-13.0_work" />
+	<project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-13.0_staging" />
+
 
 	<remove-project name="platform/hardware/qcom/msm8x74"  />
 	<project name="nailyk-fr/android_hardware_qcom_msm8x74" path="hardware/qcom/msm8x74" revision="cm-13.0_work-3.4" />

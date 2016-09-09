@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<project name="ashwinr64/android_device_motorola_msm8952-common" path="device/motorola/msm8952-common" />
+	<project name="ashwinr64/android_device_motorola_athene" path="device/motorola/athene" />
+	<project name="ashwinr64/android_kernel_motorola_msm8952" path="kernel/motorola/msm8952" />
+	<project name="ashwinr64/proprietary_vendor_motorola_msm8952" path="vendor/motorola" />
+	<project name="CyanogenMod/android_external_bson" path="external/bson" />
+
+
+</manifest>
