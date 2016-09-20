@@ -4,7 +4,7 @@
            fetch="ssh://git.nailyk.fr/" 
            revision="cm12.1" />
 
-  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-12.1" />
+  <project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="cm-12.1_work" />
 <!--  <project name="sony-omni/android_hardware_qcom_camera" path="hardware/qcom/camera" revision="android-5.1" />-->
 <!--  <project name="sonyxperiadev/camera" path="hardware/qcom/camera" revision="aosp/LA.BF64.1.2.2_rb4.7" />
   <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/qcom/camera" revision="cm-13.0" />-->
@@ -16,5 +16,7 @@
   <project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-12.1_work" />
 
   <project name="CyanogenMod/android_kernel_sony_msm" path="kernel/sony/msm" revision="cm-13.0" />
+  <remove-project name="CyanogenMod/android_kernel_sony_msm8974" />
+  <project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-13.0_work" />
  
 </manifest>
