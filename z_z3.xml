@@ -2,10 +2,7 @@
 <manifest>
 	<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 
-<!--	<project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0_work-3.4" remote="github" />
--->
-	<project name="SonyAosp/vendor_qcom" path="vendor/qcom" revision="mm-6.0" remote="github" />
-	<project name="SonyAosp/vendor_sony" path="vendor/sony" revision="mm-6.0" remote="github" />
+	<project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0_work-3.4" remote="github" />
 	
 <!--	<remove-project name="CyanogenMod/android_hardware_qcom_camera" />
 	<remove-project name="CyanogenMod/android_hardware_sony_camera" />
@@ -28,13 +25,15 @@
 	<project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_crypto" />
 -->
 
+	<remove-project name="CyanogenMod/android_kernel_sony_msm8974" />
+	<project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-13.0_staging" />
 
 
 	<remove-project name="platform/hardware/qcom/msm8x74"  />
 	<project name="nailyk-fr/android_hardware_qcom_msm8x74" path="hardware/qcom/msm8x74" revision="cm-13.0_work-3.4" />
 
 
-	<project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-13.0_staging" />
+	<project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-13.0_work" />
 	<project path="kernel/sony/msm_sony" name="kernel" groups="device" remote="sony" revision="aosp/LA.BF64.1.2.2_rb4.7" />
 	<project path="kernel/sony/msm_sony2" name="kernel" groups="device" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
 
