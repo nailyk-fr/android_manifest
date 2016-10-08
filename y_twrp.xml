@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remove-project name="CyanogenMod/android_bootable_recovery" />
-	<project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-6.0" />
+	<project name="omnirom/android_bootable_recovery" path="bootable/recovery" revision="android-7.0" />
 
 
 </manifest>
