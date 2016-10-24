@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="home"
+           fetch="ssh://git.nailyk.fr/var/sites/git.fefe"
+           revision="cm12.1" />
+
+
+
+	<project name="android_bootable_zip-recovery" path="bootable/zip-recovery" remote="home" />
+
+
+</manifest>
