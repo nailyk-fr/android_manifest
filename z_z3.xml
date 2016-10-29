@@ -2,7 +2,11 @@
 <manifest>
 	<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 
-	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-14.0" remote="github" />
+<!--	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-14.0" remote="github" /> -->
+	<project name="SonyAosp/vendor_qcom" path="vendor/qcom" revision="n" />
+	<project name="SonyAosp/vendor_sony" path="vendor/sony" revision="n" />
+	<project name="SonyAosp/vendor_qcom_firmware" path="vendor/qcom/firmware" revision="android-7.0" clone-depth="1"  />
+
 
 <!--	<remove-project name="CyanogenMod/android_hardware_qcom_camera" />
 	<remove-project name="CyanogenMod/android_hardware_sony_camera" />
@@ -12,6 +16,9 @@
 	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-14.0_work-3.4" />
 
 <!--	<project name="nailyk-fr/android_device_sony_z3c" path="device/sony/z3c" revision="cm-13.0_crypto" />-->
+
+	<remove-project name="CyanogenMod/android_device_sony_z3c" />
+	<project name="nailyk-fr/android_device_sony_z3c" path="device/sony/z3c" revision="cm-13.0_work-3.4" />
 
 	<remove-project name="CyanogenMod/android_device_sony_shinano-common" />
 	<project name="nailyk-fr/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-14.0_work-3.4" />
@@ -25,11 +32,18 @@
 
 
 
+	<remove-project name="CyanogenMod/android_hardware_qcom_display" revision="cm-14.0-caf-8974" />
+	<project  name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="cm-14.0-caf-sony" />
+
+    <remove-project name="CyanogenMod/android_hardware_qcom_media" revision="cm-14.0-caf-8974" />
+	<project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="cm-14.0-caf-sony" />
+
 
 	<project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-14.0_work" />
+	<project name="sonyxperiadev/kernel" path="kernel/sony/msm_sony2" revision="aosp/LA.BR.1.3.3_rb2.14" />
 
-<!--	<remove-project name="CyanogenMod/android_hardware_sony_camera" />
-	<project path="hardware/sony/camera" name="camera" remote="sony" revision="aosp/LA.BR.1.3.3_rb2.14" />
--->
+	<remove-project name="CyanogenMod/android_hardware_sony_camera" />
+	<project name ="SonyCM/android_hardware_sony_camera" revision="cm-14.0-caf-sony" path="hardware/sony/camera" />
+
 
 </manifest>
