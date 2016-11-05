@@ -5,6 +5,8 @@
 <!--	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-14.0" remote="github" /> -->
 	<project name="SonyAosp/vendor_qcom" path="vendor/qcom" revision="android-7.0" clone-depth="1" />
 	<project name="SonyAosp/vendor_sony" path="vendor/sony" revision="android-7.0" clone-depth="1" />
+	<project name="SonyAosp/vendor_nxp" path="vendor/nxp" revision="android-7.0" clone-depth="1" />
+	<project name="SonyAosp/vendor_qcom_extras" path="vendor/qcom/extras" revision="cm-14.1" clone-depth="1" />
 	<project name="SonyAosp/vendor_qcom_firmware" path="vendor/qcom/firmware" revision="android-7.0" clone-depth="1"  />
 
 
@@ -33,10 +35,10 @@
 
 
 	<remove-project name="CyanogenMod/android_hardware_qcom_display" revision="cm-14.0-caf-8974" />
-	<project  name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="cm-14.0-caf-sony" />
+	<project  name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="cm-14.1-caf-sony" />
 
     <remove-project name="CyanogenMod/android_hardware_qcom_media" revision="cm-14.0-caf-8974" />
-	<project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="cm-14.0-caf-sony" />
+	<project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="cm-14.1-caf-sony" />
 
 
 	<remove-project name="CyanogenMod/android_kernel_sony_msm" />
