@@ -32,13 +32,22 @@
 	<project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_crypto" />
 -->
 
+  <!-- sony sepolicy -->
+  <project name="sonyxperiadev/device-sony-sepolicy" path="device/sony/sepolicy" remote="github" revision="master" />
+  
+	<remove-project name="CyanogenMod/android_hardware_sony_thermanager" />
+    <project name="sonyxperiadev/thermanager" path="hardware/sony/thermanager" remote="github" revision="master" />
+	<remove-project name="CyanogenMod/android_hardware_sony_timekeep" />
+    <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
+	<remove-project name="CyanogenMod/android_hardware_sony_macaddrsetup" />
+    <project name="sonyxperiadev/macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="master" />
 
 
 	<remove-project name="CyanogenMod/android_hardware_qcom_display" revision="cm-14.0-caf-8974" />
-	<project  name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="cm-14.1-caf-sony" />
+	<project  name="SonyCM/android_hardware_qcom_display" path="hardware/qcom/display-caf/sony" revision="cm-14.1-caf-sony" />
 
     <remove-project name="CyanogenMod/android_hardware_qcom_media" revision="cm-14.0-caf-8974" />
-	<project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="cm-14.1-caf-sony" />
+	<project name="SonyCM/android_hardware_qcom_media" path="hardware/qcom/media-caf/sony" revision="cm-14.1-caf-sony" />
 
 
 	<remove-project name="CyanogenMod/android_kernel_sony_msm" />
