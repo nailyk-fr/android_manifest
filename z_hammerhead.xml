@@ -3,6 +3,6 @@
 
 	<project name="nailyk-fr/android_kernel_lge_hammerhead" path="device/lge/hammerhead" revision="nougat-mr0.5-release_staging" />
 	<project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="cm-14.1" />
-	<project name="TheMuppets/proprietary_vendor_lge" path="kernel/lge/hammerhead" revision="cm-14.1" />
+	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge/hammerhead" revision="cm-14.1" />
 
 </manifest>
