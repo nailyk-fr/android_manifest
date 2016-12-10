@@ -5,4 +5,7 @@
 	<project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="cm-14.1" remote="github" />
 	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge/hammerhead" revision="cm-14.1" remote="github" />
 
+	<!-- add kernel toolchain :( -->
+	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
+
 </manifest>
