@@ -61,7 +61,6 @@
   <remove-project  name="CyanogenMod/android_external_libxslt" />
   <remove-project  name="CyanogenMod/android_external_linux-tools-perf"  />
   <remove-project  name="CyanogenMod/android_external_libtruezip" />
-  <remove-project  name="CyanogenMod/android_external_mm-dash" />
   <remove-project  name="CyanogenMod/android_external_nist-sip"  />
   <remove-project  name="CyanogenMod/android_external_okhttp"  />
   <remove-project  name="CyanogenMod/android_external_openssh"  />
