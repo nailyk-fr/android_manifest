@@ -4,7 +4,7 @@
            fetch="ssh://git.nailyk.fr/" 
            revision="cm12.1" />
 
-  <project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="cm-12.1_work" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-12.1" />
 <!--  <project name="sony-omni/android_hardware_qcom_camera" path="hardware/qcom/camera" revision="android-5.1" />-->
 <!--  <project name="sonyxperiadev/camera" path="hardware/qcom/camera" revision="aosp/LA.BF64.1.2.2_rb4.7" />
   <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/qcom/camera" revision="cm-13.0" />-->
