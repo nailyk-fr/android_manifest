@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<project name="nailyk-fr/android_device_lge_hammerhead" path="device/lge/hammerhead" revision="nougat-mr0.5-release_staging" remote="github" />
-	<project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="cm-14.1" remote="github" />
-	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge/hammerhead" revision="cm-14.1" remote="github" />
+  <remote  name="github2"
+          fetch="https://github.com/"
+       revision="refs/heads/nougat-mr1.1-release" />
 
-	<!-- add kernel toolchain :( -->
-	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-7.1.1_r4" />
+  <project name="nailyk-fr/android_device_lge_hammerhead" path="device/lge/hammerhead" revision="nougat-mr0.5-release_staging" remote="github2" />
+  <project name="AndroidVTS/android-vts" path="packages/apps/AndroidVTS" revision="master" remote="github2" />
+  <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="cm-14.1" remote="github2" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge/hammerhead" revision="cm-14.1" remote="github2" />
 
 </manifest>
