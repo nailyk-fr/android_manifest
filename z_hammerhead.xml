@@ -2,6 +2,7 @@
 <manifest>
 
 	<project name="nailyk-fr/android_device_lge_hammerhead" path="device/lge/hammerhead" revision="nougat-mr0.5-release_staging" remote="github" />
+	<project name="AndroidVTS/android-vts" path="packages/apps/AndroidVTS" revision="master" remote="github" />
 	<project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="cm-14.1" remote="github" />
 	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge/hammerhead" revision="cm-14.1" remote="github" />
 
