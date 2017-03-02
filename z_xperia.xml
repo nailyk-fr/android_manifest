@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 
-	<project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="cm-13.0_work-3.4-cameratest" remote="github" />
+	<project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="new-cm-14.1bis" remote="github" />
 	
 <!--	<remove-project name="CyanogenMod/android_hardware_qcom_camera" />
 	<remove-project name="CyanogenMod/android_hardware_sony_camera" />
@@ -12,7 +12,7 @@
 <!--	<project name="nailyk-fr/android_device_sony_z3c" path="device/sony/z3c" revision="cm-13.0_crypto" />-->
 
 
-	 <project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_stock" />
+	 <project name="nailyk-fr/archive_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_stock" />
 	
 <!--	<remove-project name="CyanogenMod/android_device_sony_msm8974-common" />
 	<project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_crypto" />
