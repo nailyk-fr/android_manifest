@@ -12,7 +12,6 @@
 <!--	<project name="nailyk-fr/android_device_sony_z3c" path="device/sony/z3c" revision="cm-13.0_crypto" />-->
 
 
-	<remove-project name="CyanogenMod/android_device_sony_msm8974-common" />
 	 <project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_stock" />
 	
 <!--	<remove-project name="CyanogenMod/android_device_sony_msm8974-common" />
