@@ -2,6 +2,7 @@
 <manifest>
 
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung/" />
+  <project name="TheMuppets/proprietary_vendor_ti" path="vendor/ti" remote="github" revision="master" />
   <project name="nailyk-fr/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" />
   <project name="LineageOS/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
   <project name="nailyk-fr/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" />
