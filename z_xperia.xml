@@ -16,7 +16,7 @@
   <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
 
 	
-  <project name="nailyk-fr/archive_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_stock" />
-  <project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-13.0_work" />
+  <project name="nailyk-fr/android_device_sony_msm8974-common" path="device/sony/msm8974-common" revision="cm-13.0_work" />
+  <project name="nailyk-fr/android_kernel_sony_msm8974_291" path="kernel/sony/msm8974" revision="cm-13.0_work" />
 
 </manifest>

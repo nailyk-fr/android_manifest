@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project name="nailyk-fr/archive_device_sony_z3" path="device/sony/z3" revision="cm-13.0_stock" />
-	<project name="nailyk-fr/archive_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-13.0_stock" />
+	<project name="nailyk-fr/android_device_sony_z3" path="device/sony/z3" revision="cm-13.0_work" />
+	<project name="nailyk-fr/android_device_sony_shinano-common" path="device/sony/shinano-common" revision="cm-13.0_work" />
 </manifest>
