@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="nailyk-fr/proprietary_vendor_sony" path="vendor/sony" revision="new-cm-14.1bis" remote="github" />
+  <project name="nailyk-fr/archive_vendor_sony" path="vendor/sony" revision="new-cm-14.1bis" remote="github" />
 
   <project name="LineageOS/android_kernel_sony_msm" path="kernel/sony/msm" remote="github" />
   <remove-project name="LineageOS/android_kernel_sony_msm" />
