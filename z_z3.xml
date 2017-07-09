@@ -7,10 +7,10 @@
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-12.1" />
 <!--  <project name="sony-omni/android_hardware_qcom_camera" path="hardware/qcom/camera" revision="android-5.1" />-->
 <!--  <project name="sonyxperiadev/camera" path="hardware/qcom/camera" revision="aosp/LA.BF64.1.2.2_rb4.7" />
-  <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/qcom/camera" revision="cm-13.0" />-->
-  <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" />
+  <project name="LineageOS/android_hardware_sony_camera" path="hardware/qcom/camera" revision="cm-13.0" />-->
+  <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" />
 
-  <remove-project name="CyanogenMod/android_kernel_sony_msm8974" />
+  <remove-project name="LineageOS/android_kernel_sony_msm8974" />
   <project name="nailyk-fr/android_kernel_sony_msm8974" path="kernel/sony/msm8974" revision="cm-13.0_work" />
  
 </manifest>

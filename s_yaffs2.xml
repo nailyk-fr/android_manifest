@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!--  <remove-project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />-->
-<!--  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery-cm" groups="pdk" revision="staging/cm-12.0" />-->
-<!--  <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" groups="pdk" revision="staging/cm-12.0" />-->
-<!--  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" revision="6a9437f39be94179b3e7777d2c7147861c41c4ea" upstream="refs/heads/cm-11.0"/>-->
-<!--  <project name="CyanogenMod/android_bootable_recovery-cm" path="bootable/recovery-cm" revision="720908e308bf66d9bf5988286dd5475d2654cfa7" upstream="refs/heads/cm-11.0"/>-->
-<!--  <project name="CyanogenMod/android_bootable_recovery-cm" path="bootable/recovery-cm" revision="staging/cm-12.0" />-->
-<!--  <project name="CyanogenMod/Superuser" path="external/koush/Superuser" revision="cm-12.0" />
-  <project name="CyanogenMod/Widgets" path="external/koush/Widgets" revision="6aebba738f778bf265f0badbe649f590e46e27fd" upstream="refs/heads/cm-11.0" />-->
+<!--  <remove-project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
+<!--  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery-cm" groups="pdk" revision="staging/cm-12.0" />-->
+<!--  <project path="bootable/recovery-cm" name="LineageOS/android_bootable_recovery-cm" groups="pdk" revision="staging/cm-12.0" />-->
+<!--  <project name="LineageOS/android_bootable_recovery" path="bootable/recovery" revision="6a9437f39be94179b3e7777d2c7147861c41c4ea" upstream="refs/heads/cm-11.0"/>-->
+<!--  <project name="LineageOS/android_bootable_recovery-cm" path="bootable/recovery-cm" revision="720908e308bf66d9bf5988286dd5475d2654cfa7" upstream="refs/heads/cm-11.0"/>-->
+<!--  <project name="LineageOS/android_bootable_recovery-cm" path="bootable/recovery-cm" revision="staging/cm-12.0" />-->
+<!--  <project name="LineageOS/Superuser" path="external/koush/Superuser" revision="cm-12.0" />
+  <project name="LineageOS/Widgets" path="external/koush/Widgets" revision="6aebba738f778bf265f0badbe649f590e46e27fd" upstream="refs/heads/cm-11.0" />-->
   <remove-project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
-  <project groups="pdk" name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" revision="03a490214dc2ac29104ed10b29659d9585a6a5f2" upstream="refs/heads/cm-11.0"/>
+  <project groups="pdk" name="LineageOS/android_external_yaffs2" path="external/yaffs2" revision="03a490214dc2ac29104ed10b29659d9585a6a5f2" upstream="refs/heads/cm-11.0"/>
 
 </manifest>
